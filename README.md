@@ -26,31 +26,31 @@ To improve accuracy the following may be considered:
 
 ## Model Rank
 
-### Random Forests
+### 1. Random Forests
 - Predictive Test Accuracy: **0.888**
 - Best Grid score: 0.872
 
 ![](https://github.com/diannejardinez/machine-learning-challenge/blob/master/classification-reports/Random-Forests.png)
 
-### Logistic Regression
+### 2. Logistic Regression
 - Predictive Test Accuracy: 0.880
 - Best Grid score: 0.886
 
 ![](https://github.com/diannejardinez/machine-learning-challenge/blob/master/classification-reports/Logistic-Regression.png)
 
-### Decision Trees
+### 3. Decision Trees
 - Predictive Test Accuracy: 0.799
 - Best Grid score: 0.790
 
 ![](https://github.com/diannejardinez/machine-learning-challenge/blob/master/classification-reports/Decision-Tree.png)
 
-### K-Nearest Neighbors(KNN)
+### 4. K-Nearest Neighbors(KNN)
 - Predictive Test Accuracy: 0.660
 - Best Grid score: 0.672
 
 ![](https://github.com/diannejardinez/machine-learning-challenge/blob/master/classification-reports/KNN.png)
 
-### Support Vector Machine(SVM)
+### 5. Support Vector Machine(SVM)
 - Predictive Test Accuracy: 0.600
 - Best Grid score: 0.605
 
