@@ -1,6 +1,6 @@
 # Machine Learning - Exoplanet Exploration
 
-**Objective**: Create machine learning models capable of classifying candidate exoplanets from NASA Kelper space telescope raw dataset starting at 2009. 
+**Objective**: Create machine learning models capable of classifying candidate exoplanets from NASA Kepler space telescope raw dataset starting in 2009. 
 
 
 **Background**:
@@ -9,14 +9,21 @@ Kepler Space Observatory had verified 1284 new exoplanets as of May 2016. As of 
 
 
 
-The models below were chosen on the basis of Binary Classification Predictive modeling where class label is predicted for a given example of input data([Source](https://machinelearningmastery.com/types-of-classification-in-machine-learning/#:~:text=Popular%20algorithms%20that%20can%20be%20used%20for%20binary%20classification%20include)). The planets would either confirmed as a new exoplanet  or not. 
+The models below were chosen on the basis of Binary Classification Predictive modeling where class label is predicted for a given example of input data([Source](https://machinelearningmastery.com/types-of-classification-in-machine-learning/#:~:text=Popular%20algorithms%20that%20can%20be%20used%20for%20binary%20classification%20include)). The planets would either be confirmed as a new exoplanet or not. 
 
 
 
 
 ## Analysis Report
 
-Comparative to all the algorithms  below, the Random Forests and Logistic Regression are the models that reached greater than 85% accuracy, with Random Forests at 88.8%. There could be an accurate way at increasing the accuracy for each model by doing more research on the appropriate hyperarameters for Hyperparameter Tuning for each model.
+Comparative to all the algorithms  below, the Random Forests and Logistic Regression are the models that reached greater than 85% accuracy, with Random Forests at 88.8%. If one were to make predictions of exoplanets from these five models, the best model would be Random Forests. However, the limitations of these predictions are that there were no certain features selected so erroneous data might have been included in the Hyperparameter Tuning phase causing our test accuracy to be skewed. 
+
+To improve accuracy the following may be considered:
+- Using effective and efficient value hyperparameters when using Hyperparameter Tuning with GridSearch
+- Removing features in the dataset that do not provide substance to classifying the exoplanets to reduce processing time
+- Controlling the prevention of overfitting and under-fitting for each model
+
+There could be an accurate way at increasing the accuracy for each model by doing more research on the appropriate hyperparameters for Hyperparameter Tuning for each model. ut of the 
 
 ### **Model Rank**
 
@@ -44,7 +51,7 @@ Comparative to all the algorithms  below, the Random Forests and Logistic Regres
 
 ![](https://github.com/diannejardinez/machine-learning-challenge/blob/master/classification-reports/KNN.png)
 
-### Supper Vector Machine(SVM)
+### Support Vector Machine(SVM)
 - Predictive Test Accuracy: 0.600
 - Best Grid score: 0.605
 
@@ -65,8 +72,8 @@ Comparative to all the algorithms  below, the Random Forests and Logistic Regres
 - Run time for fitting after GridSearchCV
 
 
-
-
+#### Model and Dataset Visualizations
+- Can be found in the `data-visualizations` directory
 
 
 
@@ -77,3 +84,4 @@ Comparative to all the algorithms  below, the Random Forests and Logistic Regres
 
 
 <!-- Readme for https://github.com/diannejardinez/machine-learning-, Author: Dianne Jardinez -->
+
