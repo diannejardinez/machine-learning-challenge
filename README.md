@@ -20,7 +20,7 @@ Model Ranking showing grid score, classification report, and are ranked by Test 
 
 Comparative to all the algorithms  below, the Random Forests and Logistic Regression are the models that reached greater than 85% accuracy, with Random Forests at 88.8%
 
-#### Random Forest
+### Random Forest
 - Predictive Test Accuracy: **0.888**
 - Best Grid score: 0.872
 
