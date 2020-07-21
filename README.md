@@ -5,7 +5,7 @@
 
 **Background**:
 
-Kepler Space Observatory had verified 1284 new exoplanets as of May 2016. As of October 2017 there are over 3000 confirmed exoplanets total. The raw dataset `exoplanet_data` is a cumulative record of all observed Kepler "objects of interest" — basically, all of the approximately 10,000 exoplanet candidates Kepler has taken observations on [Source](https://www.kaggle.com/nasa/kepler-exoplanet-search-results)
+Kepler Space Observatory had verified 1284 new exoplanets as of May 2016. As of October 2017 there are over 3000 confirmed exoplanets total. The raw dataset `exoplanet_data.csv` is a cumulative record of all observed Kepler "objects of interest" — basically, all of the approximately 10,000 exoplanet candidates Kepler has taken observations on [Source](https://www.kaggle.com/nasa/kepler-exoplanet-search-results)
 
 
 
@@ -20,7 +20,7 @@ Model Ranking showing grid score, classification report, and are ranked by Test 
 
 Comparative to all the algorithms  below, the Random Forests and Logistic Regression are the models that reached greater than 85% accuracy, with Random Forests at 88.8%
 
-**Random Forest**
+#### Random Forest
 - Predictive Test Accuracy: **0.888**
 - Best Grid score: 0.872
 
