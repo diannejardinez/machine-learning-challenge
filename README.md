@@ -18,7 +18,7 @@ The models below were chosen on the basis of Binary Classification Predictive mo
 
 Model Ranking showing grid score, classification report, and are ranked by Test Accuracy.
 
-Comparative to all the algorithms  below, the Random Forests and Logistic Regression are the models that reached greater than 85% accuracy, with Random Forests at 88.8%
+Comparative to all the algorithms  below, the Random Forests and Logistic Regression are the models that reached greater than 85% accuracy, with Random Forests at 88.8%. There could be an accurate way at increasing the accuracy for each model by doing more research on the appropriate hyperarameters for Hyperparameter Tuning for each model.
 
 ### Random Forests
 - Predictive Test Accuracy: **0.888**
@@ -50,19 +50,18 @@ Comparative to all the algorithms  below, the Random Forests and Logistic Regres
 
 ![](https://github.com/diannejardinez/machine-learning-challenge/blob/master/classification-reports/SVM.png)
 
+---
+## Additional Information
 
-Fastest run time
+#### Fastest run time
 - Decision Trees at 5.1 seconds with 216 fits
 
-Slowest run time
+#### Slowest run time
 - K-Nearest Neighbors(KNN) at 29.1 minutes with 28420 fits
 
 
-There could be a better way at increasing the accuracy for each model by doing more research on the appropriate hyperarameters for Hyperparameter Tuning for each model.
-
-
-Challenges
-- Hyperparameter Tuning model parameters for each model
+#### Challenges
+- Capturing all Hyperparameter Tuning model parameters for each model
 - Run time for fitting after GridSearchCV
 
 
