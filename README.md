@@ -5,11 +5,11 @@
 
 **Background**:
 
-Kepler Space Observatory had verified 1284 new exoplanets as of May 2016. As of October 2017 there are over 3000 confirmed exoplanets total. The raw dataset `exoplanet_data.csv` is a cumulative record of all observed Kepler "objects of interest" — basically, all of the approximately 10,000 exoplanet candidates Kepler has taken observations on [Source](https://www.kaggle.com/nasa/kepler-exoplanet-search-results)
+Kepler Space Observatory had verified 1284 new exoplanets as of May 2016. As of October 2017 there are over 3000 confirmed exoplanets total. The raw dataset `exoplanet_data.csv` is a cumulative record of all observed Kepler "objects of interest" — basically, all of the approximately 10,000 exoplanet candidates Kepler has taken observations on ([Source](https://www.kaggle.com/nasa/kepler-exoplanet-search-results))
 
 
 
-The models below were chosen on the basis of Classification Predictive modeling where class label is predicted for a given example of input data([Source](https://machinelearningmastery.com/types-of-classification-in-machine-learning/#:~:text=Imbalanced%20Classification-,Classification%20Predictive%20Modeling,it%20is%20spam%20or%20not.)). The planets would either confirmed as a new exoplanet  or not. 
+The models below were chosen on the basis of Binary Classification Predictive modeling where class label is predicted for a given example of input data([Source](https://machinelearningmastery.com/types-of-classification-in-machine-learning/#:~:text=Popular%20algorithms%20that%20can%20be%20used%20for%20binary%20classification%20include)). The planets would either confirmed as a new exoplanet  or not. 
 
 
 
