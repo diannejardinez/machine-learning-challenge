@@ -3,9 +3,7 @@
 **Objective**: Create machine learning models capable of classifying candidate exoplanets from NASA Kepler space telescope raw dataset 
 
 
-**Background**:
-
-Kepler Space Observatory had verified 1284 new exoplanets as of May 2016. As of October 2017 there are over 3000 confirmed exoplanets total. The raw dataset `exoplanet_data.csv` is a cumulative record of all observed Kepler "objects of interest."([Source](https://www.kaggle.com/nasa/kepler-exoplanet-search-results))
+**Background**: Kepler Space Observatory had verified 1284 new exoplanets as of May 2016. As of October 2017 there are over 3000 confirmed exoplanets total. The raw dataset `exoplanet_data.csv` is a cumulative record of all observed Kepler "objects of interest."([Source](https://www.kaggle.com/nasa/kepler-exoplanet-search-results))
 
 
 
