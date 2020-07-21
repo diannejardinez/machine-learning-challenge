@@ -20,31 +20,31 @@ Model Ranking showing grid score, classification report, and are ranked by Test 
 
 Comparative to all the algorithms  below, the Random Forests and Logistic Regression are the models that reached greater than 85% accuracy, with Random Forests at 88.8%
 
-### Random Forest
+### Random Forests
 - Predictive Test Accuracy: **0.888**
 - Best Grid score: 0.872
 
 ![](https://github.com/diannejardinez/machine-learning-challenge/blob/master/classification-reports/Random-Forests.png)
 
-Logistic Regression
+### Logistic Regression
 - Predictive Test Accuracy: 0.880
 - Best Grid score: 0.886
 
 ![](https://github.com/diannejardinez/machine-learning-challenge/blob/master/classification-reports/Logistic-Regression.png)
 
-Decision Tree
+### Decision Trees
 - Predictive Test Accuracy: 0.799
 - Best Grid score: 0.790
 
 ![](https://github.com/diannejardinez/machine-learning-challenge/blob/master/classification-reports/Decision-Tree.png)
 
-KNN
+### K-Nearest Neighbors(KNN)
 - Predictive Test Accuracy: 0.660
 - Best Grid score: 0.672
 
 ![](https://github.com/diannejardinez/machine-learning-challenge/blob/master/classification-reports/KNN.png)
 
-SVM
+### Supper Vector Machine(SVM)
 - Predictive Test Accuracy: 0.600
 - Best Grid score: 0.605
 
@@ -52,7 +52,7 @@ SVM
 
 
 Fastest run time
-- Decision Tree at 5.1 seconds with 216 fits
+- Decision Trees at 5.1 seconds with 216 fits
 
 Slowest run time
 - K-Nearest Neighbors(KNN) at 29.1 minutes with 28420 fits
