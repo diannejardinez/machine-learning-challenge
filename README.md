@@ -16,7 +16,7 @@ The models below were chosen on the basis of Binary Classification Predictive mo
 
 ## Analysis Report
 
-Comparative to all the algorithms  below, the Random Forests and Logistic Regression are the models that reached greater than 85% accuracy, with Random Forests at 88.8%. If one were to make predictions of exoplanets from these five models, the best model would be Random Forests. However, the limitations of these predictions are that there were no specific features selected or dropped so erroneous data might have been included in the Hyperparameter Tuning phase causing our test accuracy to be skewed. 
+Comparative to all the algorithms  below, the Random Forests and Logistic Regression are the models that reached greater than 85% accuracy, with Random Forests at 88.8%. If one were to make predictions of exoplanets from these five models, the best model would be Random Forests. However, the limitations of the accuracy scores are that there were no specific features selected or dropped when training the model so erroneous data might have been included in the Hyperparameter Tuning phase causing our test accuracy to be skewed. 
 
 To improve accuracy the following may be considered:
 - Using effective and efficient value hyperparameters when using Hyperparameter Tuning with GridSearch
