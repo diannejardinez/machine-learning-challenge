@@ -23,26 +23,31 @@ Comparative to all the algorithms  below, the Random Forests and Logistic Regres
 **Random Forest**
 - Predictive Test Accuracy: **0.888**
 - Best Grid score: 0.872
+
 ![](https://github.com/diannejardinez/machine-learning-challenge/blob/master/classification-reports/Random-Forests.png)
 
 Logistic Regression
 - Predictive Test Accuracy: 0.880
 - Best Grid score: 0.886
+
 ![](https://github.com/diannejardinez/machine-learning-challenge/blob/master/classification-reports/Logistic-Regression.png)
 
 Decision Tree
 - Predictive Test Accuracy: 0.799
 - Best Grid score: 0.790
+
 ![](https://github.com/diannejardinez/machine-learning-challenge/blob/master/classification-reports/Decision-Tree.png)
 
 KNN
 - Predictive Test Accuracy: 0.660
 - Best Grid score: 0.672
+
 ![](https://github.com/diannejardinez/machine-learning-challenge/blob/master/classification-reports/KNN.png)
 
 SVM
 - Predictive Test Accuracy: 0.600
 - Best Grid score: 0.605
+
 ![](https://github.com/diannejardinez/machine-learning-challenge/blob/master/classification-reports/SVM.png)
 
 
