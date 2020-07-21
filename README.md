@@ -1,6 +1,6 @@
 # Machine Learning - Exoplanet Exploration
 
-**Objective**: Create machine learning models capable of classifying candidate exoplanets from NASA Kepler space telescope raw dataset starting in 2009. 
+**Objective**: Create machine learning models capable of classifying candidate exoplanets from NASA Kepler space telescope raw dataset 
 
 
 **Background**:
