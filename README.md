@@ -70,7 +70,12 @@ To improve accuracy the following may be considered:
 
 
 #### Model and Dataset Visualizations
-- Extra visualizations be found in the `data-visualizations` directory
+- Extra visualizations can be found in the `data-visualizations` directory
+
+
+
+
+
 
 
 
