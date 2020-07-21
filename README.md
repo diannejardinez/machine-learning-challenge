@@ -5,7 +5,7 @@
 
 **Background**:
 
-Kepler Space Observatory had verified 1284 new exoplanets as of May 2016. As of October 2017 there are over 3000 confirmed exoplanets total. The raw dataset `exoplanet_data.csv` is a cumulative record of all observed Kepler "objects of interest" — basically, all of the approximately 10,000 exoplanet candidates Kepler has taken observations on ([Source](https://www.kaggle.com/nasa/kepler-exoplanet-search-results))
+Kepler Space Observatory had verified 1284 new exoplanets as of May 2016. As of October 2017 there are over 3000 confirmed exoplanets total. The raw dataset `exoplanet_data.csv` is a cumulative record of all observed Kepler "objects of interest."([Source](https://www.kaggle.com/nasa/kepler-exoplanet-search-results))
 
 
 
@@ -23,9 +23,8 @@ To improve accuracy the following may be considered:
 - Removing features in the dataset that do not provide substance to classifying the exoplanets to reduce processing time
 - Controlling the prevention of overfitting and under-fitting for each model
 
-There could be an accurate way at increasing the accuracy for each model by doing more research on the appropriate hyperparameters for Hyperparameter Tuning for each model. ut of the 
 
-### **Model Rank**
+### Model Rank
 
 ### Random Forests
 - Predictive Test Accuracy: **0.888**
